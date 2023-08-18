@@ -1,0 +1,287 @@
+*{
+    font-family: quicksand;
+   
+}
+.logo{
+  color: rgb(250, 248, 247);
+    font-weight: bold;
+}
+#header{
+  background-color: rgb(17, 16, 16);
+  box-shadow: 2px 2px 2px rgb(252, 137, 6);
+}
+
+.navbar-nav .nav-item .nav-link{
+    font-size: 16px;
+    margin-left: 25px;
+    color: rgb(249, 246, 246);
+    display: inline;
+}
+.navbar-nav .nav-item .nav-link:hover{
+  color: rgb(252, 249, 249);
+ box-shadow: 2px 2px 2px white;
+  border-radius: 15px;
+  transition-duration: 1s;
+}
+.div1{
+    display: flex;
+    align-items: center;
+   margin-left: 130px;
+   margin-top: 30px;
+}
+.offer{
+    display: block;
+    font-size: 26px;
+    letter-spacing: 5px;
+    color: rgb(8, 9, 9);
+     text-shadow: 2px 2px 2px rgb(176, 174, 174);
+     margin-left: 35%;
+}
+h5{
+   width: 120px;
+   border-bottom: 2px solid black;
+   font-weight: bold;
+   font-size: 20px;
+   
+}
+h4{
+    width: 250px;
+    border-bottom: 2px solid black;
+    margin-left: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+li{
+    line-height: 50px;
+    font-size: 18px;
+}
+
+.img1{
+    height: 60vh;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.img1 img{
+    width: 59%;
+    height: 100%;
+    margin-top: 100px;
+    margin-left: 27%;
+   
+}
+ .img1 img:hover{
+    transform: scale(1.1);
+    transition-duration: 4s;
+    opacity: 0.5;
+}
+footer{
+    background-color:black;
+    height: 50vh;
+    margin-top: 10%;
+    border-radius: 40px 40px 0px 0px;
+    position: relative;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .footer1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 11%;
+  }
+  .footer2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 13.5%;
+  }
+  .row, .row2{
+    /* border: 1px solid white; */
+    height: 10vh;
+    width: 30%;
+    color: rgb(255, 255, 255);
+    margin: 0;
+   
+  }
+  
+  .row{
+    font-size: 14px;
+    padding-bottom: 50px;
+    color: #f7f4f4;
+    
+  }
+  .row2 p{
+    font-size: 14px;
+    padding-bottom: 50px;
+    color: #b6b4b4;
+    width: 200px;
+  }
+  .row h4{
+    color: white;
+    font-weight: lighter;
+  }
+  hr{
+    width: 85%;
+    color: white;
+  }
+  .row2{
+    color: white;
+  }
+  .icons{
+    display: inline;
+    margin: 0px 15px 0px 0px;
+    
+    
+  }
+  .icons img{
+    height: 30px;
+    width: 30px;
+  }
+  .icons img:hover{
+    border-bottom: 1px solid rgb(255, 255, 255);
+    transform: scale(1.1);
+  }
+  .row2 li {
+    list-style: none;
+  }
+  .row2 a{
+    text-decoration: none; 
+    color: #b6b4b4;
+  }
+  .row2 a:hover{
+    border-bottom: 1px solid gainsboro;
+  }
+  .mail{
+    position: absolute;
+    bottom: 40px;
+    width: 200px;
+    border: none;
+    box-shadow: 3px 3px  rgb(251, 152, 14);
+  }
+  .one2 img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 90px;
+    left: 41.5%;
+  }
+  .one3 img{
+    height: 30px;
+    width: 50px;
+    position: absolute;
+    top: 88px;
+    right: 25.8%;
+  }
+  .one1 img{
+    height: 32px;
+    width: 25px;
+    position: absolute;
+    top: 92px;
+  }
+  .ending{
+    background-color: gainsboro;
+    height: 30px;
+  }
+  .ending{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+  }
+  .develop{
+    width: 180px;
+    animation: typing 10s infinite, step-start infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 3px;
+  }
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+  
+  article{
+    position: absolute;
+    top: -38px;
+    width: 70%;
+    background-color: gainsboro;
+    border-radius: 30px;
+    font-weight: bold;
+    height: 10vh;
+    display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+    border-bottom: 2px solid white;
+  
+  }
+  .animate{
+    border: none;
+    background-color: rgb(11, 11, 11);
+    color: white;
+    font-weight: bold;
+  }
+  article:hover{
+    background-color: gainsboro;
+  }
+  .animate:hover{
+    background-color: rgb(251, 136, 42);
+  }
+      
+@media screen and (max-width:767px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .div1{
+        margin-left: 0;
+        margin-top: 0;
+        display: inline;
+    }
+    .offer{
+        margin-left: 20%;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    p{
+        margin: 15px;
+    }
+    li{
+        margin-left: 33px;
+    }
+    .img1{
+        height: 50vh;
+        width: 65%;
+        display: inline;
+
+    }
+    .div1 h4{
+
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+    .div1 ul{
+      margin-top: 20px;
+      margin-left: -23px;
+    }
+    .img1 img{
+        margin-top: 5px;
+        width: 50%;
+        height: 35%;
+        margin-left: 20px;
+    }
+    h3{
+        margin: 15px;
+    }
+
+
+}

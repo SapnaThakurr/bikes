@@ -1,0 +1,378 @@
+*{
+    font-family: quicksand;
+    margin: 0;
+    padding: 0%;
+}
+.logo{
+  color: rgb(250, 249, 248);
+    font-weight: bold;
+}
+#header{
+  background-color: rgb(8, 8, 8);
+  box-shadow: 2px 2px 2px rgb(193, 191, 191);
+  box-shadow: 2px 2px 2px rgb(255, 115, 0);
+}
+.navbar-nav .nav-item .nav-link{
+    font-size: 16px;
+    margin-left: 25px;
+    color: rgb(249, 243, 243);
+}
+.navbar-nav .nav-item .nav-link:hover{
+  color: rgb(250, 247, 247);
+ box-shadow: 2px 2px 2px white;
+  border-radius: 15px;
+  transition-duration: 1s;
+ 
+  
+}
+.div1{
+    display: flex;
+    align-items: center;
+   margin-left: 60px;
+   margin-top: 30px;
+}
+.circle{
+    background-color:rgb(200, 199, 199);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.lin{
+    width: 580px;
+    position: absolute;
+    background-color: rgb(200, 199, 199);
+    border: 1px solid rgb(196, 195, 195);
+    margin-left: 50px;
+}
+.gallery{
+    display: block;
+    font-size: 30px;
+    letter-spacing: 5px;
+    color: rgb(8, 9, 9);
+     text-shadow: 2px 2px 2px rgb(176, 174, 174);
+     margin-left: 41%;
+} 
+.sect1{
+    width: 37%;
+    height: auto;
+    padding: 90px;
+    position: relative;
+
+}
+.img1 img{
+    width: 100%;
+    height: 70%;
+    margin: 10px;
+   
+}
+.sect2{
+    width: 46.8%;
+    height: auto;
+    padding: 80px;
+    position: absolute;
+    top: 26.5%;
+    left: 30.5%;
+}
+.four{
+    padding-right: 23%;
+}
+.img2 img{
+    width: 100%;
+    height: 70%;  
+    
+}
+.sect3{
+    width: 26%;
+    height: auto;
+    position: absolute;
+    top: 72.5%;
+    right: 8.5%;
+}
+.img3 img{
+    width: 100%;
+    height: 100%;
+   display: flex;
+   justify-content: space-between;
+}
+img:hover{
+    transition-duration: 2s;
+    -webkit-filter:blur(3px);
+	filter: blur(2px);
+  
+}
+
+h2{
+    padding-bottom: 35px;
+    color: rgb(11, 11, 11);
+    font-weight: lighter;
+    word-spacing: 10px;
+    width: 60%;
+    margin-left:  50px;
+    font-size: 25px;
+}
+.img2 img{
+    width: 70%;
+    height: 70%;
+    margin: 10px;
+   
+}
+img:hover{
+    -webkit-filter:blur(3px);
+	filter: blur(2px);
+  
+}
+.div2{
+    display: flex;
+    align-items: center;
+    margin-left: 46%;
+}
+.circle2{
+    background-color:rgb(200, 199, 199);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.lin2{
+    width: 47%;
+    position: absolute;
+    background-color: rgb(200, 199, 199);
+    border: 1px solid rgb(196, 195, 195);
+}
+h5{
+    text-align: center;
+    letter-spacing: 2px;
+    color: rgb(12, 12, 12);
+    font-weight: 100px;
+    font-size: 12px;
+}
+footer{
+    background-color:black;
+    height: 50vh;
+    margin-top: 5%;
+    border-radius: 40px 40px 0px 0px;
+    position: relative;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .footer1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 11%;
+  }
+  .footer2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 13.5%;
+  }
+  .row, .row2{
+    /* border: 1px solid white; */
+    height: 10vh;
+    width: 30%;
+    color: rgb(255, 255, 255);
+    margin: 0;
+   
+  }
+  
+  .row{
+    font-size: 14px;
+    padding-bottom: 50px;
+    color: #b6b4b4;
+    
+  }
+  .row2 p{
+    font-size: 14px;
+    padding-bottom: 50px;
+    color: #b6b4b4;
+    width: 200px;
+  }
+  .row h6{
+    color: white;
+    font-size: 20px;
+  }
+  hr{
+    width: 85%;
+    color: white;
+  }
+  .row2{
+    color: white;
+  }
+  .icons{
+    display: inline;
+    margin: 0px 15px 0px 0px;
+    
+    
+  }
+  .icons img{
+    height: 30px;
+    width: 30px;
+  }
+  .icons img:hover{
+    border-bottom: 1px solid rgb(255, 255, 255);
+    transform: scale(1.1);
+  }
+  .row2 li {
+    list-style: none;
+  }
+  .row2 a{
+    text-decoration: none; 
+    color: #b6b4b4;
+  }
+  .row2 a:hover{
+    border-bottom: 1px solid gainsboro;
+  }
+  .mail{
+    position: absolute;
+    bottom: 40px;
+    width: 200px;
+    border: none;
+    box-shadow: 3px 3px  rgb(251, 152, 14);
+  }
+  .one2 img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 90px;
+    left: 41.5%;
+  }
+  .one3 img{
+    height: 30px;
+    width: 50px;
+    position: absolute;
+    top: 88px;
+    right: 25.8%;
+  }
+  .one1 img{
+    height: 32px;
+    width: 25px;
+    position: absolute;
+    top: 92px;
+  }
+  .ending{
+    background-color: gainsboro;
+    height: 30px;
+  }
+  .ending{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+  }
+  .develop{
+    width: 180px;
+    animation: typing 10s infinite, step-start infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 3px;
+  }
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+  
+  article{
+    position: absolute;
+    top: -38px;
+    width: 70%;
+    background-color: gainsboro;
+    border-radius: 30px;
+    font-weight: bold;
+    height: 10vh;
+    display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+    border-bottom: 2px solid white;
+  
+  }
+  .animate{
+    border: none;
+    background-color: rgb(11, 11, 11);
+    color: white;
+    font-weight: bold;
+  }
+  article:hover{
+    background-color: gainsboro;
+  }
+  .animate:hover{
+    background-color: rgb(251, 136, 42);
+  }
+
+@media screen and (max-width:767px) {
+    *{
+        margin: 0%;
+        padding: 0;
+    }
+    .div1{
+        margin-top: 0;
+        margin-left: 0;
+        text-align: center;
+    }
+    .circle{
+        width: 39px;
+        height: 39px;
+        margin: 10px;
+    }
+    .lin{
+        width: 70px;
+        margin-left: 55px;
+    }
+    .gallery{
+        margin-left: 70px;
+    }
+    .sect1{
+      padding: 0;
+      width: 95%;
+      margin-left: 0px;
+    }
+    .sect2{
+     padding: 0;
+     position: relative;
+     top: 0;
+     left: 0;
+     width: 90%;
+}
+h2{
+    padding-bottom: 0;
+    word-spacing: 0px;
+    width: 100%;
+    margin-left: 20px;
+    font-size: 18px;
+    
+}
+.img2 img{
+    width: 100%;
+    margin-left: 20px;
+}
+.sect3{
+    position: relative;
+    width: 95%;
+    top: 0;
+    right: 0;
+    margin-left: 0px;
+}
+h5{
+    margin-left: 0px;
+}
+.four{
+    padding-right: 0px;
+    margin-top: 10px;
+}
+    }
+
+
+
+
+
+
+
+
+
+
